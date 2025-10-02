@@ -1,0 +1,37 @@
+name: Daily Price Tracker
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # 4 PM UTC = 10 PM IST
+  workflow_dispatch:       # Allow manual runs
+
+jobs:
+  track-prices:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+        
+    - name: Run price tracker
+      env:
+        AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+        AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+        AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+      run: python price_tracker.py
+        
+    - name: Commit and push new data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add smartphone_prices.csv
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Automated daily price update"
+        git push
