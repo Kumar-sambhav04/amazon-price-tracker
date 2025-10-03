@@ -1,0 +1,6 @@
+date,brand,product,price,list_price,discount,rating,reviews,asin,status
+2025-10-03,Apple,iPhone 16 Pro Max,0,0,0,0,0,B0DGJJM5HZ,error: No items have been found
+2025-10-03,Samsung,Galaxy S24 Ultra,74999.0,134999.0,44.44,0,0,B0CS5XW6TN,success
+2025-10-03,Google,Pixel 9 Pro,104999.0,124999.0,16.0,0,0,B0FKT2WDXK,success
+2025-10-03,OnePlus,OnePlus 13,63999.0,72999.0,12.33,0,0,B0DQ8MGRNX,success
+2025-10-03,Motorola,Edge 50 Ultra,58999.0,64999.0,9.23,0,0,B0D7XXKKX6,success
