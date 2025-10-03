@@ -27,11 +27,3 @@ jobs:
         AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
         AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
       run: python price_tracker.py
-        
-    - name: Commit and push new data
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add smartphone_prices.csv
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Automated daily price update"
-        git push
