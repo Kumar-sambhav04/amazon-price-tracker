@@ -8,6 +8,8 @@ on:
 jobs:
   track-prices:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ← ADD THIS LINE
     
     steps:
     - name: Checkout code
