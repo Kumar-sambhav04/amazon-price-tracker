@@ -1,2 +1,2 @@
-amazon-paapi==4.4.0
+amazon-paapi5-py==1.0.0
 python-dotenv==1.0.0
