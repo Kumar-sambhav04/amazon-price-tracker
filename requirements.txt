@@ -1,2 +1,2 @@
-amazon-paapi5-py==1.0.0
+git+https://github.com/slugbay/amazon-paapi.git
 python-dotenv==1.0.0
