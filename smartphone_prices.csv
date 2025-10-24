@@ -109,3 +109,8 @@ date,brand,product,price,list_price,discount,rating,reviews,asin,status
 2025-10-23,Google,Pixel 9 Pro,115000.0,124999.0,8.0,0,0,B0FKT2WDXK,success
 2025-10-23,OnePlus,OnePlus 13,69999.0,72999.0,4.11,0,0,B0DQ8MGRNX,success
 2025-10-23,Motorola,Edge 50 Ultra,45499.0,64999.0,30.0,0,0,B0D7XXKKX6,success
+2025-10-24,Apple,iPhone 16 Pro Max,0,0,0,0,0,B0DGJJM5HZ,error: No items have been found
+2025-10-24,Samsung,Galaxy S24 Ultra,79999.0,134999.0,40.74,0,0,B0CS5XW6TN,success
+2025-10-24,Google,Pixel 9 Pro,115000.0,124999.0,8.0,0,0,B0FKT2WDXK,success
+2025-10-24,OnePlus,OnePlus 13,69999.0,72999.0,4.11,0,0,B0DQ8MGRNX,success
+2025-10-24,Motorola,Edge 50 Ultra,45499.0,64999.0,30.0,0,0,B0D7XXKKX6,success
