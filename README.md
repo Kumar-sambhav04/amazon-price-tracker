@@ -2,6 +2,10 @@
 
 A Python script that automatically tracks daily prices of flagship smartphones on Amazon India.
 
+## 📊 Tableau Dashboard
+Check out the interactive dashboard built using Tableau Public:  
+👉 [View Live Dashboard]("https://public.tableau.com/app/profile/kumar.sambhav3811/viz/AmazonMobilePriceAnalysis/PriceAnalysisDashboard")
+
 ## 🚀 Features
 - **Automated Tracking**: Runs daily at 10 PM IST via GitHub Actions
 - **5 Flagship Smartphones**: Tracks latest models from top brands  
