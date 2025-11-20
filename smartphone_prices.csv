@@ -244,3 +244,8 @@ date,brand,product,price,list_price,discount,rating,reviews,asin,status
 2025-11-19,Google,Pixel 9 Pro,0,0,0,0,0,B0FKT2WDXK,error: Request failed: Forbidden
 2025-11-19,OnePlus,OnePlus 13,0,0,0,0,0,B0DQ8MGRNX,error: Request failed: Forbidden
 2025-11-19,Motorola,Edge 50 Ultra,0,0,0,0,0,B0D7XXKKX6,error: Request failed: Forbidden
+2025-11-20,Apple,iPhone 16 Pro Max,0,0,0,0,0,B0DGJJM5HZ,error: Request failed: Forbidden
+2025-11-20,Samsung,Galaxy S24 Ultra,0,0,0,0,0,B0CS5XW6TN,error: Request failed: Forbidden
+2025-11-20,Google,Pixel 9 Pro,0,0,0,0,0,B0FKT2WDXK,error: Request failed: Forbidden
+2025-11-20,OnePlus,OnePlus 13,0,0,0,0,0,B0DQ8MGRNX,error: Request failed: Forbidden
+2025-11-20,Motorola,Edge 50 Ultra,0,0,0,0,0,B0D7XXKKX6,error: Request failed: Forbidden
