@@ -324,3 +324,8 @@ date,brand,product,price,list_price,discount,rating,reviews,asin,status
 2025-12-05,Google,Pixel 9 Pro,0,0,0,0,0,B0FKT2WDXK,error: 'HTTPResponse' object has no attribute 'getheaders'
 2025-12-05,OnePlus,OnePlus 13,0,0,0,0,0,B0DQ8MGRNX,error: 'HTTPResponse' object has no attribute 'getheaders'
 2025-12-05,Motorola,Edge 50 Ultra,0,0,0,0,0,B0D7XXKKX6,error: 'HTTPResponse' object has no attribute 'getheaders'
+2025-12-06,Apple,iPhone 16 Pro Max,0,0,0,0,0,B0DGJJM5HZ,error: 'HTTPResponse' object has no attribute 'getheaders'
+2025-12-06,Samsung,Galaxy S24 Ultra,0,0,0,0,0,B0CS5XW6TN,error: 'HTTPResponse' object has no attribute 'getheaders'
+2025-12-06,Google,Pixel 9 Pro,0,0,0,0,0,B0FKT2WDXK,error: 'HTTPResponse' object has no attribute 'getheaders'
+2025-12-06,OnePlus,OnePlus 13,0,0,0,0,0,B0DQ8MGRNX,error: 'HTTPResponse' object has no attribute 'getheaders'
+2025-12-06,Motorola,Edge 50 Ultra,0,0,0,0,0,B0D7XXKKX6,error: 'HTTPResponse' object has no attribute 'getheaders'
